@@ -10,7 +10,7 @@ session = Session()
 def get_session_id() -> int:
     r = session.post(f"{SERVER_BASE}/api/session", json={"hostname": str(UUID(int=getnode()))})
     r.raise_for_status()
-    return r.json()["session_id"]
+    return r.json()["id"]
 
 
 def add_url(session_id: int, url: str):
