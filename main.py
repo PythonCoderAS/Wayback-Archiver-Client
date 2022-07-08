@@ -33,6 +33,9 @@ class WaybackItemProcessor:
             r = self.session.get(f"https://web.archive.org/save/" + item.url, allow_redirects=False)
             retry_count = 1
             while not r.ok and retry_count <= 5:
+                print(r)
+                print(r.ok)
+                print(r.text)
                 spider.log("Recieved non-302 response, sleeping 60 seconds.")
                 spider.halo.text = "Retrying " + item.url + " [Attempt #" + str(retry_count) + "]."
                 time.sleep(60)
