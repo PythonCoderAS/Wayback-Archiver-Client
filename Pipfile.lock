@@ -36,7 +36,7 @@
                 "sha256:84c85a9078b11105f04f3036a9482ae10e4621616db313fe045dd24743a0820d",
                 "sha256:fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==2022.6.15"
         },
         "cffi": {
@@ -113,7 +113,7 @@
                 "sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845",
                 "sha256:83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==2.1.1"
         },
         "colorama": {
@@ -156,7 +156,7 @@
                 "sha256:f7a6de3e98771e183645181b3627e2563dcde3ce94a9e42a3f427d2255190327",
                 "sha256:f8c0a6e9e1dd3eb0414ba320f85da6b0dcbd543126e30fcc546e7372a7fbf3b9"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==37.0.4"
         },
         "cssselect": {
@@ -210,16 +210,16 @@
                 "sha256:0e0ab4ddf92c71af57c2386952a61756ae2ecf6c65f976ffaee9ba91ae87a91c",
                 "sha256:32c061ec9ab47d5343e8011b268730f48ff632a0192b95292d118b18dbd7687a"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==0.7.0"
         },
         "itemloaders": {
             "hashes": [
-                "sha256:5557785570c14883a08270804a825dcac0f415886efefc5bb24d2ab29a76de7b",
-                "sha256:f76ed511355602ee817394e08255d4238a83b5853dbdaa5f27dfa80ae110efd9"
+                "sha256:248702909af3ab45ae32846f5bdefa0166dc88cffb5f758d662223dcd0953bd9",
+                "sha256:8a6b2945a4233a14042a368e17950f447eb1d42494d75634552586342090cb4a"
             ],
-            "markers": "python_full_version >= '3.6.0'",
-            "version": "==1.0.5"
+            "markers": "python_version >= '3.6'",
+            "version": "==1.0.6"
         },
         "jmespath": {
             "hashes": [
@@ -381,18 +381,17 @@
         },
         "pydispatcher": {
             "hashes": [
-                "sha256:5570069e1b1769af1fe481de6dd1d3a388492acddd2cdad7a3bde145615d5caf",
-                "sha256:5be4a8be12805ef7d712dd9a93284fb8bc53f309867e573f653a72e5fd10e433"
+                "sha256:3d7e4f43c70000a1dca31f92694e99d0101934fa6eab5d5455a758858d86df95"
             ],
             "markers": "platform_python_implementation == 'CPython'",
-            "version": "==2.0.5"
+            "version": "==2.0.6"
         },
         "pyopenssl": {
             "hashes": [
                 "sha256:660b1b1425aac4a1bea1d94168a85d99f0b3144c869dd4390d27629d0087f1bf",
                 "sha256:ea252b38c87425b64116f808355e8da644ef9b07e429398bfece610f893ee2e0"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==22.0.0"
         },
         "queuelib": {
@@ -472,11 +471,11 @@
         },
         "tqdm": {
             "hashes": [
-                "sha256:40be55d30e200777a307a7585aee69e4eabb46b4ec6a4b4a5f2d9f11e7d5408d",
-                "sha256:74a2cdefe14d11442cedf3ba4e21a3b84ff9a2dbdc6cfae2c34addb2a14a5ea6"
+                "sha256:5f4f682a004951c1b450bc753c710e9280c5746ce6ffedee253ddbcbf54cf1e4",
+                "sha256:6fee160d6ffcd1b1c68c65f14c829c22832bc401726335ce92c52d395944a6a1"
             ],
             "index": "pypi",
-            "version": "==4.64.0"
+            "version": "==4.64.1"
         },
         "twisted": {
             "hashes": [
@@ -507,7 +506,7 @@
                 "sha256:13df15f8c17b163de0fd5faa892c1ad143e190dfcbdb98534bb975eb37c6c7d6",
                 "sha256:c5d966f86ae3fb546854478c769250c3ccb7581515b3221bcd2f864440000188"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==2.0.1"
         },
         "zope.interface": {
